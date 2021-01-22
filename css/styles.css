@@ -6,4 +6,8 @@
 .search-bar{
     display: block;
     margin: 25px auto;
+    border-radius: 25px;
+    border-width: 1px;
+    height: 30px;
+
 }
