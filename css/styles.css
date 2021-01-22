@@ -1,13 +1,42 @@
+.logo-container{
+    text-align: center;
+}
+
 .logo{
     display: block;
     margin: 12% auto 0%;
 }
 
+/*Style the search section and search bar*/
+
+.search-container{
+    height: 100px;
+    position: relative;
+    text-align: center;
+    margin-top: 3%;
+}
+
 .search-bar{
-    display: block;
-    margin: 25px auto;
+
     border-radius: 25px;
     border-width: 1px;
+    border-color: gray;
     height: 30px;
-
+    display: inline-block;
+    width: 45%;
 }
+
+.search-icon{
+    display: inline-block;
+    position: relative;
+    color: gray;
+    left: 35px;    
+}
+
+.microphone{
+    display: inline-block;
+    position: relative;
+    right: 35px;
+    top: 5px;
+}
+
