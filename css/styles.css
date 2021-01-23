@@ -10,7 +10,6 @@
 /*Style the search section and search bar*/
 
 .search-container{
-    height: 100px;
     position: relative;
     text-align: center;
     margin-top: 3%;
@@ -40,7 +39,23 @@
     top: 5px;
 }
 
+/*Styles for the buttons*/
+
+.button-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
 .buttons{
     height: 35px;
+    width: 140px;
+    color: #3c4043;
+    background-color:#f8f9fa;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.button-lucky{
+    margin-left: 6px;
 }
 
