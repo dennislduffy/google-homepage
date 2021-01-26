@@ -1,5 +1,6 @@
 .logo-container{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo{
@@ -23,14 +24,21 @@
     height: 30px;
     display: inline-block;
     width: 45%;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
 
 .search-icon{
     display: inline-block;
     position: relative;
     color: gray;
     left: 35px;    
-}
+}   
+
 
 .microphone{
     display: inline-block;
@@ -59,3 +67,52 @@
     margin-left: 6px;
 }
 
+/*Style navbar*/
+
+.About{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 1%;
+}
+
+.Store{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 2%
+}
+
+.Gmail{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 77%;
+}
+
+.Images{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 78%;
+}
+
+.app-button{
+    display: inline-block;
+    color: grey; 
+    text-decoration: none;
+    text-align: right;
+    position: relative;
+    left: 79%;
+    top: 5px;
+}
+
+.user-icon{
+    border-radius: 100%;
+    left: 80%;
+    top: 10px;
+    position: relative;
+}
+
+
+/*Style footer*/
